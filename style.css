@@ -1,0 +1,54 @@
+    body {
+        margin: auto;
+        padding: auto;
+    }
+    
+    .menu-container {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white
+    }
+    
+    .meanu-itam {
+        display: flex;
+        list-style: none;
+    }
+    
+    .meanu-itam li {
+        margin: 15px;
+        background-color: black;
+    }
+    
+    .meanu-itam li:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+    
+    .banner {
+        display: flex;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+    }
+    
+    .list {
+        margin-left: 20px;
+    }
+    
+    .box {
+        border: 2px solid black;
+        text-align: center;
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 10px 10px 50px gray;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+    }
